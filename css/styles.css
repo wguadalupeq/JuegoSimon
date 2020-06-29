@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  font-family: "times";
+  color: #04011a;
+  font-size: 60px;
+  margin: 0;
+}
+.titulo {
+  text-shadow: 1px 1px 15px #0af3b1;
+}
+
+.diversion {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 70vh;
+  max-width: 70vh;
+  border: 5px solid black;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.azul {
+  background: #143ab9;
+}
+
+.azul.light {
+  background: #7075c5;
+}
+
+.amarillo {
+  background: #dfd21c;
+}
+
+.amarillo.light {
+  background: #cac85c;
+}
+
+.rojo {
+  background: #bd1415;
+}
+
+.rojo.light {
+  background: #f14647;
+}
+
+.verde {
+  background: #12612c;
+}
+
+.verde.light {
+  background: #129a3f;
+}
+
+.boton-start {
+  width: 400px;
+  height: 100px;
+  background: #7cbfcf;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 200px);
+  border-radius: 15px;
+}
+
+.boton-start:hover {
+  background: #b2bec3;
+}
+
+.hide {
+  display: none;
+}
