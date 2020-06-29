@@ -4,7 +4,7 @@ const rojo = document.getElementById('rojo')
 const verde = document.getElementById('verde')
 
 const botonEmpezar = document.getElementById('botonEmpezar')
-const ultimo = 10
+const ultimo = 20
 const puntuacion = 0
 
 class JuegoSimon {
